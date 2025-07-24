@@ -120,8 +120,7 @@
 
 
 /*  ************************* MEDIUM/LARGE DEVICE VIEW *********************************************************************************  */
-@media  screen and (min-width:760px) {
-    
+@media screen and (min-width:760px) {
 .todos-list-bg-container{
     min-height:100vh;
     background-image:linear-gradient(to top,#e0e4f9,#f3fdfd);

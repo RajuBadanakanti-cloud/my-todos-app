@@ -1,6 +1,6 @@
 /* ***********************  MOBILE DEVICES  ************************************************************** */
 .todo-list-items-container{
-    width:100%;
+    width:90%;
     display:flex;
     flex-direction:row;
     justify-content: flex-start;
@@ -70,7 +70,7 @@
 
 
 /* ***********************  MEDIUM/LARGE DEVICES  ************************************************************** */
-@media  sceeen and (min-width:760px) {
+@media screen and (min-width:760px) {
     .todo-list-items-container{
     width:100%;
     display:flex;
