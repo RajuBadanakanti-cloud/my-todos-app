@@ -17,6 +17,7 @@ const TodoHome = () => {
             className='todo-home-image'/>
             <h1 className="todo-home-header">Simplify Your Day: Your Smart To-Do List</h1>
             <p className='todo-home-discription'>Tackle your tasks with ease. Our intuitive to-do list helps you organize, prioritize, and accomplish everything that matters, so you can focus on what truly counts.</p>
+            <p className='todo-home-note'>Must Be Save For Your Data Persist</p>
             <button type="button" className='todo-home-start-button'onClick={onStartToTodoList}>Start</button>
         </div>
         </div>

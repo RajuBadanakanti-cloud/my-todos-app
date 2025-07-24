@@ -57,6 +57,7 @@ useEffect(()=>{
     }
 
 
+    const able = todosList.length > 0 ? "" : "Add Your Todos"
     return (
         <div className='todos-list-bg-container'>
             <h1 className='todos-list-heading'>TODOS</h1>
@@ -70,6 +71,7 @@ useEffect(()=>{
             {/* adding task list section  */}
             <h1 className='todo-my-task-heading'><span className='todo-my-task-span'>My </span>Tasks</h1>
             <ul className='todos-ul-list-container'>
+                <p className='emply-todos-note'>{able}</p>
                 {todosList.map(eachItem => <TodoListItems key={eachItem.id} todoDetails={eachItem} 
                 onToggleCheckbox={onToggleCheckbox}
                 onDeleteTodoItem={onDeleteTodoItem}/>)}
