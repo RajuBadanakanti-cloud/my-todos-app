@@ -1,4 +1,5 @@
 /* ***********************  MOBILE DEVICES  ************************************************************** */
+/* List-item(li) container */
 .todo-list-items-container{
     width:90%;
     display:flex;
@@ -71,7 +72,8 @@
 
 /* ***********************  MEDIUM/LARGE DEVICES  ************************************************************** */
 @media screen and (min-width:760px) {
-    .todo-list-items-container{
+/* List-item(li) container */
+.todo-list-items-container{
     width:100%;
     display:flex;
     flex-direction:row;
@@ -124,6 +126,7 @@
     margin-left:10px;
     cursor: pointer;
 }
+/* delete todo button */
 .todo-item-delete-btn{
     height:30px;
     width:30px;
