@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 const TodoHome = () => {
 
-    // handle checkbox to start >>>
+    // handle checkbox to start >>>>
     const [isChecked, setIsChecked] = useState(false)
     const handleCheckboxToStart = () => {
         setIsChecked(prev => !prev)
